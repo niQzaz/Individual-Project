@@ -9,7 +9,7 @@ if (burgerMenu && mobileMenu) {
     });
 
     // Close mobile menu when clicking on a link
-    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+    const mobileLinks = document.querySelectorAll('.mobile-menu a');
     mobileLinks.forEach(link => {
         link.addEventListener('click', function() {
             burgerMenu.classList.remove('active');
